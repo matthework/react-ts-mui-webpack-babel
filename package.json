@@ -1,14 +1,14 @@
 {
-  "name": "react-ts-webpack",
+  "name": "react-ts-mui-webpack-babel",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.tsx",
   "keywords": [],
-  "author": "",
+  "author": "Matt Wang",
   "license": "ISC",
   "description": "",
   "scripts": {
-    "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --config webpack.development.js",
+    "build": "webpack --mode production --config webpack.production.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

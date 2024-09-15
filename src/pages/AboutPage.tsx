@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <>
-      <p>About Page</p>
+      <h1>About</h1>
     </>
   );
 }

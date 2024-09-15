@@ -18,15 +18,14 @@ import Logo from "../../public/logo.svg";
 // const pages = ["Products", "Pricing", "About"];
 const pages = [
   { text: "Home", href: "/" },
-  { text: "Products", href: "/" },
-  { text: "Pricing", href: "/" },
+  { text: "Products", href: "/products" },
   { text: "About", href: "/about" },
 ];
 
 const settings = ["Profile", "Settings", "Logout"];
 
 // ResponsiveAppBar
-function NavBar() {
+function Navbar() {
   const navTo = useNavigate();
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -189,4 +188,4 @@ function NavBar() {
     </AppBar>
   );
 }
-export default NavBar;
+export default Navbar;
