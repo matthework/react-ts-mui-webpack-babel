@@ -1,6 +1,6 @@
-# React + TS + MUI + Webpack + Babel
+# React + TS + MUI + Webpack + Babel + Jest
 
-This template provides a minimal setup to kickstart a React app with TypeScript + Material UI, which use Webpack + Babel as build tool with configs.
+This template provides a minimal setup to kickstart a React app with TypeScript + Material UI, which use Webpack + Babel as build tool with configs. It runs testing with Jest.
 
 ## Available Scripts
 
